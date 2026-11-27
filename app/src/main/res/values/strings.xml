@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">DupSweep</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_duplicates">Duplicates</string>
+    <string name="nav_trash">Trash</string>
+
+    <string name="hero_title">Content-Exact Duplicate Finder</string>
+    <string name="hero_subtitle">Detects identical files by SHA-256 content hash across your device and SD cards, even with different names or dates.</string>
+
+    <string name="section_folder">1. Scan Scope &amp; Folder</string>
+    <string name="choose_folder">Browse Folders</string>
+    <string name="change_folder">Change</string>
+    <string name="whole_device">Whole Device (Internal + SD Cards)</string>
+    <string name="no_folder_selected">No folder or storage selected yet</string>
+    <string name="all_files_granted_note">All Files Access granted — every folder including Downloads and external SD cards can be searched.</string>
+    <string name="all_files_needed_note">Grant All Files Access to search restricted folders (like Downloads or root storage) and scan external SD cards.</string>
+    <string name="grant_all_files_access">Grant All Files Access</string>
+    <string name="include_subfolders">Include subfolders</string>
+
+    <string name="section_min_size">2. Minimum File Size</string>
+    <string name="custom_size">Custom</string>
+    <string name="custom_size_hint">Enter value</string>
+
+    <string name="section_file_type">3. File Type</string>
+    <string name="start_scan">Scan for Duplicates</string>
+    <string name="cancel_scan">Cancel Scan</string>
+
+    <string name="scanning_title">Analyzing Files Locally…</string>
+    <string name="phase_indexing">Indexing folder contents</string>
+    <string name="phase_bucketing">Matching exact file sizes</string>
+    <string name="phase_hashing">Computing SHA-256 content hashes</string>
+
+    <string name="select_all_duplicates">Select All Duplicates</string>
+    <string name="clear_selection">Clear</string>
+    <string name="move_to_trash">Move to Trash</string>
+    <string name="original_badge">ORIGINAL • KEEP</string>
+    <string name="duplicate_badge">DUPLICATE</string>
+    <string name="make_original">Keep Instead</string>
+    <string name="compare_preview">Compare</string>
+
+    <string name="confirm_trash_title">Move Duplicates to Trash?</string>
+    <string name="confirm_action_trash">Move to Trash</string>
+    <string name="cancel">Cancel</string>
+
+    <string name="trash_title">Trash Bin</string>
+    <string name="empty_trash">Empty Trash</string>
+    <string name="restore">Restore</string>
+    <string name="delete_permanently">Delete Forever</string>
+    <string name="trash_empty_title">Trash is Empty</string>
+    <string name="trash_empty_subtitle">Duplicate files moved to DupSweep Trash appear here so you can restore or permanently delete them.</string>
+</resources>
